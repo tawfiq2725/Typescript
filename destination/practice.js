@@ -92,3 +92,23 @@
 // console.log(TawfiqAccount.getBalance())
 // TawfiqAccount.credit(12000)
 // console.log(TawfiqAccount.getBalance())
+// abstract class Animal{
+//     abstract makeSound():void;
+//     move():void{
+//       console.log('roaming')
+//     }
+//   }
+//   class Cat extends Animal{
+//       makeSound():void{
+//         console.log("meow")
+//       }
+//   }
+//   class Dog extends Animal{
+//       makeSound():void{
+//         console.log("bark")
+//       }
+//   }
+//   const myCat = new Cat()
+//   const myDog = new Cat()
+//   myCat.move()
+//   myDog.makeSound()

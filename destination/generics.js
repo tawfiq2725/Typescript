@@ -1,21 +1,16 @@
 "use strict";
-// Generics in function
-function generics(name) {
-    return name;
-}
-generics("Tawfiq");
-// Classes in generics
-class Generics {
-    constructor(key) {
-        this.myKey = key;
+// // Generics in function
+const add = (a, b) => a + b;
+// console.log(add(45,32))
+const today = new Date(); // Get today's date
+const tomorrow = new Date(today); // Clone today's date
+tomorrow.setDate(today.getDate() + 1); // Add one day to today's date
+class Employee {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
     }
-    getKey() {
-        return this.myKey;
+    greet() {
+        console.log(`Hello ${this.name}`);
     }
 }
-const key_one = new Generics("1");
-console.log(key_one.getKey());
-const myObj = {
-    name: "Tawfiq",
-    age: 21
-};
